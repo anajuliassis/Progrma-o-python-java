@@ -1,0 +1,12 @@
+segundos = int(input("Insira um valor em segundos: "))
+
+dias = segundos / 86400
+print(f" equivale a: {dias}")
+
+
+horas = segundos /3600
+print(f" equivale a: {horas}")
+
+
+minutos = segundos // 60
+print(f" equivale a: {minutos}")                                                                                                                                                                                                                                              
